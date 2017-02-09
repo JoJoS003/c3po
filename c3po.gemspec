@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
   s.add_development_dependency "rspec", "~>2.6"
-  s.add_dependency "typhoeus", "~>0.2.4"
-  s.add_dependency "nokogiri", "~>1.5.0"
-  s.add_dependency "yajl-ruby", "~>0.8.2"
+  s.add_dependency "typhoeus"
+  s.add_dependency "nokogiri"
+  s.add_dependency "yajl-ruby"
 end
